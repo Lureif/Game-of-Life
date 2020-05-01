@@ -1,0 +1,14 @@
+int		(g_event_assoc_table[]) = {
+	[SDLK_r] = 0,
+	[SDLK_f] = 1,
+	[SDLK_s] = 2,
+	[SDLK_1] = 3,
+	[SDLK_2] = 3,
+	[SDLK_3] = 3,
+	[SDLK_p] = 4,
+	[SDLK_i] = 5
+};
+
+void		(*conway_event_functions[])(void *private, void *whatever) = {
+	&reset_field,
+};
