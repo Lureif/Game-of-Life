@@ -21,8 +21,8 @@ ESC: Exit program
 Just sdl2.
 
 ## Compiling
-make -> compile executable (./game_of_life)
-make clean -> delete obj files
+make -> compile executable (./game_of_life)\
+make clean -> delete obj files\
 make fclean -> dekete obj files + executable
 
 ## Bugs
