@@ -13,7 +13,7 @@ r: randomize\
 1: change population density to LOW\
 2: change population density to MEDIUM\
 3: change population density to HIGH\
-ESC: Exit program\
+ESC: Exit program
 
 (1, 2 and 3 will take effect after hitting r)
 
