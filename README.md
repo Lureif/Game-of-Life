@@ -20,6 +20,11 @@ ESC: Exit program
 ## Dependencies
 Just sdl2.
 
+## Compiling
+make -> compile executable (./game_of_life)
+make clean -> delete obj files
+make fclean -> dekete obj files + executable
+
 ## Bugs
 Sometimes some cells don't render properly.\
 they're there, just invisible. I'm not too sure why yet.
