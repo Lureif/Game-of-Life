@@ -7,7 +7,7 @@ on-screen menu.
 ## Controls
 f: faster\
 s: slower\
-i: iterate\
+i: iterate (single step in pause mode)\
 p: pause\
 r: randomize\
 1: change population density to LOW\
