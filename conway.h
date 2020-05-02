@@ -39,5 +39,6 @@ void		change_speed(t_conway_utils *private, bool faster);
 void		pause_animation(bool *pause);
 void		iterate(t_SDL_OBJS *sdl_objs, t_conway_utils *private);
 void		change_population_density(t_conway_utils *private, t_e_FIELD_POPULATION new_density);
+void		dump_state(t_conway_utils *private);
 
 #endif

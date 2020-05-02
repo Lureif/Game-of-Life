@@ -60,6 +60,10 @@ void		conway_loop(t_SDL_OBJS *sdl_objs, t_conway_utils *private)
 			{
 				iterate(sdl_objs, private);
 			}
+			if (updown == SDL_KEYUP && key == SDLK_d)
+			{
+				dump_state(private);
+			}
 		}
 		if (!pause)
 		{
