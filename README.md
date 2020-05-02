@@ -9,6 +9,7 @@ f: faster\
 s: slower\
 i: iterate (single step in pause mode)\
 p: pause\
+d: dump state\
 r: randomize\
 1: change population density to LOW\
 2: change population density to MEDIUM\
